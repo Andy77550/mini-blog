@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Waytips</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/svg+xml">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--recapcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#home"><img src="./images/logo-1.png" alt="" width="70"><img class="logo-purple"
+                src="./images/logo.png" alt="" width="70"></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            style="margin: 0 70px;">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#home">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#fonctions">Fonctionnalitées</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#prix">Prix</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.htmlblog.html">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#circuit">Circuit</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Connexion</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- Brand -->
+
+
+
+    </nav>
+
+    <!--HOME-->
+    <section id="blog" class="home" id="home">
+        <div class="container d-flex justify-content-around align-items-center">
+            <div class="row justify-content-center">
+                <div class="home-text">
+                    <h1 class="text-center">Liste des utilisateurs</h1>
+                    <br>
+                    <div class="home-btn text-center">
+                        <a href="#posts" class="btn btn-1 "><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Add user-->
+
+    <section class="dashboard" style="margin-top: 170px;">
+        <div class="container dashboard__container">
+            <button id="show__sidebar-btn" class="sidebar__toggle"><i class="fas fa-angle-right"></i></button>
+            <button id="hide__sidebar-btn" class="sidebar__toggle"><i class="fas fa-angle-left"></i></button>
+            <aside>
+                <ul>
+                    <li><a href="add-post.html"><i class="fas fa-pen"></i>
+                            <h5>Ajouter un post</h5>
+                        </a></li>
+                    <li><a href="dashboard.html"><i class="fas fa-id-card-alt"></i>
+                            <h5>Manager un post</h5>
+                        </a></li>
+                    <li><a href="add-user.html"><i class="fas fa-user"></i>
+                            <h5>Ajouter un utilisateur</h5>
+                        </a></li>
+                    <li><a href="manage-users.html" class="active"><i class="fas fa-users"></i>
+                            <h5>Manager un utilisateur</h5>
+                        </a></li>
+                    <li><a href="add-category.html"><i class="fas fa-edit"></i>
+                            <h5>Ajouter une catégorie</h5>
+                        </a></li>
+                    <li><a href="manage-categories.html" ><i class="fas fa-list-ul"></i>
+                            <h5>Manager une catégorie</h5>
+                        </a></li>
+                </ul>
+            </aside>
+            <main>
+                <h2>Dashboard</h2>
+                <table>
+                    <thread>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Nom d'utilisateur</th>
+                            <th>Modifier</th>
+                            <th>Supprimer</th>
+                            <th>Admin</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>Andy Vespuce</td>
+                            <td>Andy</td>
+                            <td><a href="edit-category.html" class="btn btn-success">Modifier</a></td>
+                            <td><a href="delete-category.html" class="btn btn-danger">Supprimer</a></td>
+                            <td>Oui</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Andy Vespuce</td>
+                            <td>Andy</td>
+                            <td><a href="edit-category.html" class="btn btn-success">Modifier</a></td>
+                            <td><a href="delete-category.html" class="btn btn-danger">Supprimer</a></td>
+                            <td>Oui</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Andy Vespuce</td>
+                            <td>Andy</td>
+                            <td><a href="edit-category.html" class="btn btn-success">Modifier</a></td>
+                            <td><a href="delete-category.html" class="btn btn-danger">Supprimer</a></td>
+                            <td>Oui</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Andy Vespuce</td>
+                            <td>Andy</td>
+                            <td><a href="edit-category.html" class="btn btn-success">Modifier</a></td>
+                            <td><a href="delete-category.html" class="btn btn-danger">Supprimer</a></td>
+                            <td>Oui</td>
+                        </tr>
+                        
+                     
+                       
+                    </tbody>
+                </table>
+            </main>
+        </div>
+    </section>
+
+   
+
+    
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3><img src="./images/logo-1.png" alt="" width="30"> Waytips</h3>
+                        <p class="text-footer">Voyagez, tu choisis la destination et nous t'offrons le meilleur !</p>
+                        <div class="footer-links">
+                            <a href="https://m.facebook.com/trainingcentersympav/" target="_blank"
+                                class="footer__social">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="https://twitter.com/TCenter4_0/" target="_blank" class="footer__social">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/trainingcenter4.0/" target="_blank"
+                                class="footer__social">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <!-- <a href="https://www.youtube.com/channel/UCqan073e4fkLA_HtG_uWk8Q" target="_blank" class="footer__social">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/tcenter-sympav-28bb571a3/" target="_blank" class="footer__social">
+                <i class="fa fa-linkedin"></i>
+              </a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col props">
+                        <h3>Liens rapides</h3>
+                        <ul>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">À propos</a></li>
+                            <li><a href="#fonctions">Fonctionnalitées</a></li>
+                            <li><a href="#prix">Prix</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#circuit">Circuit</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Informations</h3>
+                        <p>Paris, France</p>
+                        <br>
+                        <a class="mail" href="mailto:waytips@gmail.com" class="footer__link">waytips@gmail.com
+                        </a>
+                        <br>
+                        <a class="mail" href="tel:+33757079455" class="footer__link">07 77 05 08 82</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Nos Politiques</h3>
+                        <ul>
+                            <li><a href="#">Politique d’utilisation des cookies</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright-text">&copy;2022 Training Center 4.0. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup scroll-up">
+        <i class="fa fa-arrow-up scrollup__icon" aria-hidden="true"></i>
+    </a>
+
+
+    <!-- jquery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- ScrollIt js -->
+    <script src="js/scrollIt.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).bind("scroll", function () {
+                let gap = 80;
+                if ($(window).scrollTop() > gap) {
+                    $("nav").addClass("active");
+                    $(".logo-purple").addClass("active");
+                } else {
+                    $("nav").removeClass("active");
+                    $(".logo-purple").removeClass("active");
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
